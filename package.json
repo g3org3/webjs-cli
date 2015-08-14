@@ -9,6 +9,7 @@
   "author": "",
   "license": " ",
   "dependencies": {
-    "commander": "^2.8.1"
+    "commander": "^2.8.1",
+    "lodash": "^3.10.1"
   }
 }
