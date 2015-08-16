@@ -12,12 +12,6 @@ var NOOP = function() {};
 var Q = require('q');
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-function loadTemplate(name){
-
-}
-function write(path, str) {
-  
-}
 function handleCreate(dir){
 	if(!dir) return console.log("try -h for help");
 	var destPath = program.args.shift() || '.';
