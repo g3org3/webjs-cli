@@ -2,14 +2,24 @@
   "name": "webjs-cli",
   "version": "0.1.0",
   "description": "webjs cli",
-  "main": "webjs-cli.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "bin/webjs",
+  "preferGlobal": true,
+  "bin": {
+    "webjs": "./bin/webjs"
   },
-  "author": "",
-  "license": " ",
+  "files": [
+    "bin/",
+    "templates/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "author": "George",
+  "license": "",
   "dependencies": {
+    "chalk": "^1.1.0",
     "commander": "^2.8.1",
-    "lodash": "^3.10.1"
+    "lodash": "^3.10.1",
+    "q": "^1.4.1"
   }
 }
