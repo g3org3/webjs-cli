@@ -1,6 +1,6 @@
 {
   "name": "webjs-cli",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "webjs cli",
   "main": "bin/webjs",
   "preferGlobal": true,
@@ -14,11 +14,19 @@
   ],
   "scripts": {},
   "author": "George",
-  "license": "",
+  "license": " ",
   "dependencies": {
     "chalk": "^1.1.0",
     "commander": "^2.8.1",
     "lodash": "^3.10.1",
     "q": "^1.4.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/g3org3/webjs-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/g3org3/webjs-cli/issues"
+  },
+  "homepage": "https://github.com/g3org3/webjs-cli"
 }
