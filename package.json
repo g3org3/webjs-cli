@@ -1,6 +1,6 @@
 {
   "name": "webjs-cli",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "webjs cli",
   "main": "bin/webjs",
   "preferGlobal": true,
@@ -10,7 +10,8 @@
   "files": [
     "bin/",
     "templates/",
-    "action.js"
+    "action.js",
+	"README.md"
   ],
   "scripts": {},
   "author": "George",
